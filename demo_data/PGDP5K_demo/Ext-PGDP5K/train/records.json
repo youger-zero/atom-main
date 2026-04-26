@@ -1,0 +1,1519 @@
+[
+  {
+    "sample_id": "10",
+    "file_name": "10.png",
+    "width": 330,
+    "height": 195,
+    "num_nodes": 6,
+    "nodes": [
+      {
+        "id": "p0",
+        "type": "point"
+      },
+      {
+        "id": "p1",
+        "type": "point"
+      },
+      {
+        "id": "p2",
+        "type": "point"
+      },
+      {
+        "id": "l0",
+        "type": "line"
+      },
+      {
+        "id": "l1",
+        "type": "line"
+      },
+      {
+        "id": "l2",
+        "type": "line"
+      }
+    ],
+    "semantic_text": "x perpendicular line b c line a c equals length line c a 18 equals length line b c 15 equals angle angle c a b x",
+    "positive_edges": [
+      {
+        "left": 4,
+        "right": 5,
+        "left_id": "l1",
+        "right_id": "l2",
+        "relations": [
+          "perpendicular"
+        ]
+      }
+    ],
+    "class_counts": {
+      "perpendicular": 1
+    },
+    "knn_indices": [
+      [
+        0,
+        5,
+        3,
+        2,
+        4,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        4,
+        3,
+        2,
+        5,
+        0,
+        1,
+        1
+      ],
+      [
+        2,
+        4,
+        5,
+        3,
+        1,
+        0,
+        2,
+        2
+      ],
+      [
+        3,
+        5,
+        4,
+        1,
+        0,
+        2,
+        3,
+        3
+      ],
+      [
+        4,
+        2,
+        1,
+        3,
+        5,
+        0,
+        4,
+        4
+      ],
+      [
+        5,
+        3,
+        0,
+        2,
+        4,
+        1,
+        5,
+        5
+      ]
+    ]
+  },
+  {
+    "sample_id": "1003",
+    "file_name": "1003.png",
+    "width": 571,
+    "height": 332,
+    "num_nodes": 18,
+    "nodes": [
+      {
+        "id": "p0",
+        "type": "point"
+      },
+      {
+        "id": "p1",
+        "type": "point"
+      },
+      {
+        "id": "p2",
+        "type": "point"
+      },
+      {
+        "id": "p3",
+        "type": "point"
+      },
+      {
+        "id": "p4",
+        "type": "point"
+      },
+      {
+        "id": "p5",
+        "type": "point"
+      },
+      {
+        "id": "p6",
+        "type": "point"
+      },
+      {
+        "id": "p7",
+        "type": "point"
+      },
+      {
+        "id": "p8",
+        "type": "point"
+      },
+      {
+        "id": "p9",
+        "type": "point"
+      },
+      {
+        "id": "p10",
+        "type": "point"
+      },
+      {
+        "id": "p11",
+        "type": "point"
+      },
+      {
+        "id": "l0",
+        "type": "line"
+      },
+      {
+        "id": "l1",
+        "type": "line"
+      },
+      {
+        "id": "l2",
+        "type": "line"
+      },
+      {
+        "id": "l3",
+        "type": "line"
+      },
+      {
+        "id": "l4",
+        "type": "line"
+      },
+      {
+        "id": "c0",
+        "type": "circle"
+      }
+    ],
+    "semantic_text": "S M J K R L P point on line m line b c point on line m line b p point on line m line b d point on line c line b p point on line c line b d point on line c line m p point on line c line m d point on line p line b d point on line p line m d point on line p line c d point on line p line e k point on line s line a k point on line c line l r point on line c line l j point on line r line l j point on line r line c j point on circle s circle r radius 0 0 point on circle j circle r radius 0 0 point on circle m circle r radius 0 0 point on circle l circle r radius 0 0 point on circle p circle r radius 0 0",
+    "positive_edges": [
+      {
+        "left": 12,
+        "right": 15,
+        "left_id": "l0",
+        "right_id": "l3",
+        "relations": [
+          "intersect"
+        ]
+      }
+    ],
+    "class_counts": {
+      "intersect": 1
+    },
+    "knn_indices": [
+      [
+        0,
+        2,
+        4,
+        16,
+        12,
+        6,
+        15,
+        17
+      ],
+      [
+        1,
+        4,
+        0,
+        8,
+        12,
+        7,
+        16,
+        6
+      ],
+      [
+        2,
+        16,
+        14,
+        3,
+        0,
+        15,
+        6,
+        17
+      ],
+      [
+        3,
+        14,
+        16,
+        2,
+        13,
+        15,
+        17,
+        6
+      ],
+      [
+        4,
+        12,
+        8,
+        7,
+        6,
+        15,
+        17,
+        0
+      ],
+      [
+        5,
+        14,
+        3,
+        13,
+        10,
+        9,
+        2,
+        16
+      ],
+      [
+        6,
+        15,
+        17,
+        7,
+        16,
+        12,
+        4,
+        2
+      ],
+      [
+        7,
+        12,
+        6,
+        17,
+        15,
+        8,
+        4,
+        16
+      ],
+      [
+        8,
+        12,
+        7,
+        4,
+        6,
+        17,
+        15,
+        11
+      ],
+      [
+        9,
+        10,
+        13,
+        17,
+        15,
+        6,
+        11,
+        7
+      ],
+      [
+        10,
+        9,
+        13,
+        11,
+        17,
+        15,
+        6,
+        3
+      ],
+      [
+        11,
+        8,
+        9,
+        7,
+        12,
+        10,
+        17,
+        6
+      ],
+      [
+        12,
+        7,
+        8,
+        4,
+        6,
+        15,
+        17,
+        16
+      ],
+      [
+        13,
+        10,
+        9,
+        3,
+        17,
+        15,
+        6,
+        14
+      ],
+      [
+        14,
+        3,
+        2,
+        16,
+        15,
+        6,
+        17,
+        13
+      ],
+      [
+        15,
+        6,
+        17,
+        7,
+        16,
+        12,
+        4,
+        2
+      ],
+      [
+        16,
+        15,
+        6,
+        2,
+        17,
+        3,
+        7,
+        14
+      ],
+      [
+        17,
+        15,
+        6,
+        7,
+        16,
+        12,
+        4,
+        8
+      ]
+    ]
+  },
+  {
+    "sample_id": "1028",
+    "file_name": "1028.png",
+    "width": 724,
+    "height": 402,
+    "num_nodes": 12,
+    "nodes": [
+      {
+        "id": "p0",
+        "type": "point"
+      },
+      {
+        "id": "p1",
+        "type": "point"
+      },
+      {
+        "id": "p2",
+        "type": "point"
+      },
+      {
+        "id": "p3",
+        "type": "point"
+      },
+      {
+        "id": "p4",
+        "type": "point"
+      },
+      {
+        "id": "p5",
+        "type": "point"
+      },
+      {
+        "id": "p6",
+        "type": "point"
+      },
+      {
+        "id": "l0",
+        "type": "line"
+      },
+      {
+        "id": "l1",
+        "type": "line"
+      },
+      {
+        "id": "l2",
+        "type": "line"
+      },
+      {
+        "id": "l3",
+        "type": "line"
+      },
+      {
+        "id": "l4",
+        "type": "line"
+      }
+    ],
+    "semantic_text": "X Q S R W T V point on line r line q s point on line r line q t point on line s line q t point on line s line r t point on line x line q w point on line x line q v point on line w line q v point on line w line x v parallel line t v line s w parallel line t v line r x parallel line s w line r x",
+    "positive_edges": [
+      {
+        "left": 8,
+        "right": 10,
+        "left_id": "l1",
+        "right_id": "l3",
+        "relations": [
+          "parallel"
+        ]
+      },
+      {
+        "left": 8,
+        "right": 11,
+        "left_id": "l1",
+        "right_id": "l4",
+        "relations": [
+          "parallel"
+        ]
+      },
+      {
+        "left": 10,
+        "right": 11,
+        "left_id": "l3",
+        "right_id": "l4",
+        "relations": [
+          "parallel"
+        ]
+      }
+    ],
+    "class_counts": {
+      "parallel": 3
+    },
+    "knn_indices": [
+      [
+        0,
+        10,
+        6,
+        1,
+        7,
+        9,
+        11,
+        5
+      ],
+      [
+        1,
+        10,
+        6,
+        9,
+        0,
+        7,
+        11,
+        2
+      ],
+      [
+        2,
+        11,
+        9,
+        8,
+        3,
+        5,
+        7,
+        1
+      ],
+      [
+        3,
+        8,
+        2,
+        11,
+        4,
+        9,
+        5,
+        7
+      ],
+      [
+        4,
+        8,
+        5,
+        11,
+        7,
+        2,
+        3,
+        9
+      ],
+      [
+        5,
+        11,
+        7,
+        4,
+        9,
+        8,
+        2,
+        6
+      ],
+      [
+        6,
+        10,
+        1,
+        7,
+        0,
+        9,
+        5,
+        11
+      ],
+      [
+        7,
+        5,
+        6,
+        10,
+        11,
+        9,
+        1,
+        2
+      ],
+      [
+        8,
+        4,
+        3,
+        11,
+        2,
+        5,
+        9,
+        7
+      ],
+      [
+        9,
+        2,
+        11,
+        7,
+        1,
+        10,
+        6,
+        5
+      ],
+      [
+        10,
+        1,
+        6,
+        0,
+        7,
+        9,
+        11,
+        5
+      ],
+      [
+        11,
+        2,
+        5,
+        9,
+        7,
+        8,
+        4,
+        3
+      ]
+    ]
+  },
+  {
+    "sample_id": "1033",
+    "file_name": "1033.png",
+    "width": 289,
+    "height": 255,
+    "num_nodes": 9,
+    "nodes": [
+      {
+        "id": "p0",
+        "type": "point"
+      },
+      {
+        "id": "p1",
+        "type": "point"
+      },
+      {
+        "id": "p2",
+        "type": "point"
+      },
+      {
+        "id": "p3",
+        "type": "point"
+      },
+      {
+        "id": "l0",
+        "type": "line"
+      },
+      {
+        "id": "l1",
+        "type": "line"
+      },
+      {
+        "id": "l2",
+        "type": "line"
+      },
+      {
+        "id": "l3",
+        "type": "line"
+      },
+      {
+        "id": "l4",
+        "type": "line"
+      }
+    ],
+    "semantic_text": "perpendicular line a d line c d perpendicular line c b line a b equals length line a d 40 equals length line d c 32 equals length line a c x",
+    "positive_edges": [
+      {
+        "left": 5,
+        "right": 6,
+        "left_id": "l1",
+        "right_id": "l2",
+        "relations": [
+          "perpendicular"
+        ]
+      },
+      {
+        "left": 7,
+        "right": 8,
+        "left_id": "l3",
+        "right_id": "l4",
+        "relations": [
+          "perpendicular"
+        ]
+      }
+    ],
+    "class_counts": {
+      "perpendicular": 2
+    },
+    "knn_indices": [
+      [
+        0,
+        6,
+        7,
+        4,
+        1,
+        5,
+        3,
+        8
+      ],
+      [
+        1,
+        6,
+        5,
+        4,
+        0,
+        7,
+        2,
+        8
+      ],
+      [
+        2,
+        8,
+        5,
+        4,
+        3,
+        7,
+        1,
+        6
+      ],
+      [
+        3,
+        8,
+        7,
+        4,
+        2,
+        5,
+        0,
+        6
+      ],
+      [
+        4,
+        7,
+        5,
+        6,
+        8,
+        2,
+        0,
+        3
+      ],
+      [
+        5,
+        4,
+        1,
+        2,
+        6,
+        8,
+        7,
+        0
+      ],
+      [
+        6,
+        0,
+        1,
+        4,
+        5,
+        7,
+        8,
+        2
+      ],
+      [
+        7,
+        4,
+        3,
+        0,
+        8,
+        6,
+        5,
+        2
+      ],
+      [
+        8,
+        3,
+        2,
+        4,
+        7,
+        5,
+        6,
+        0
+      ]
+    ]
+  },
+  {
+    "sample_id": "1122",
+    "file_name": "1122.png",
+    "width": 313,
+    "height": 248,
+    "num_nodes": 10,
+    "nodes": [
+      {
+        "id": "p0",
+        "type": "point"
+      },
+      {
+        "id": "p1",
+        "type": "point"
+      },
+      {
+        "id": "p2",
+        "type": "point"
+      },
+      {
+        "id": "p3",
+        "type": "point"
+      },
+      {
+        "id": "p5",
+        "type": "point"
+      },
+      {
+        "id": "p6",
+        "type": "point"
+      },
+      {
+        "id": "p7",
+        "type": "point"
+      },
+      {
+        "id": "l0",
+        "type": "line"
+      },
+      {
+        "id": "l1",
+        "type": "line"
+      },
+      {
+        "id": "l2",
+        "type": "line"
+      }
+    ],
+    "semantic_text": "K N M L point on line k line l a point on line m line l c point on line n line l b equals angle angle k l n angle angle m l n",
+    "positive_edges": [
+      {
+        "left": 7,
+        "right": 9,
+        "left_id": "l0",
+        "right_id": "l2",
+        "relations": [
+          "bisect"
+        ]
+      },
+      {
+        "left": 8,
+        "right": 9,
+        "left_id": "l1",
+        "right_id": "l2",
+        "relations": [
+          "bisect"
+        ]
+      }
+    ],
+    "class_counts": {
+      "bisect": 2
+    },
+    "knn_indices": [
+      [
+        0,
+        1,
+        3,
+        2,
+        7,
+        9,
+        5,
+        8
+      ],
+      [
+        1,
+        0,
+        7,
+        3,
+        9,
+        2,
+        8,
+        5
+      ],
+      [
+        2,
+        3,
+        0,
+        6,
+        5,
+        1,
+        9,
+        8
+      ],
+      [
+        3,
+        2,
+        9,
+        1,
+        5,
+        0,
+        8,
+        7
+      ],
+      [
+        4,
+        7,
+        9,
+        8,
+        1,
+        5,
+        3,
+        0
+      ],
+      [
+        5,
+        6,
+        8,
+        3,
+        9,
+        2,
+        7,
+        1
+      ],
+      [
+        6,
+        5,
+        2,
+        3,
+        8,
+        9,
+        1,
+        0
+      ],
+      [
+        7,
+        9,
+        1,
+        8,
+        3,
+        4,
+        0,
+        5
+      ],
+      [
+        8,
+        9,
+        5,
+        7,
+        3,
+        6,
+        4,
+        1
+      ],
+      [
+        9,
+        7,
+        8,
+        3,
+        1,
+        5,
+        0,
+        2
+      ]
+    ]
+  },
+  {
+    "sample_id": "1405",
+    "file_name": "1405.png",
+    "width": 411,
+    "height": 360,
+    "num_nodes": 9,
+    "nodes": [
+      {
+        "id": "p0",
+        "type": "point"
+      },
+      {
+        "id": "p2",
+        "type": "point"
+      },
+      {
+        "id": "p4",
+        "type": "point"
+      },
+      {
+        "id": "p6",
+        "type": "point"
+      },
+      {
+        "id": "l0",
+        "type": "line"
+      },
+      {
+        "id": "l1",
+        "type": "line"
+      },
+      {
+        "id": "l2",
+        "type": "line"
+      },
+      {
+        "id": "l3",
+        "type": "line"
+      },
+      {
+        "id": "l4",
+        "type": "line"
+      }
+    ],
+    "semantic_text": "U V S T perpendicular line v s line t s perpendicular line t u line v u equals length line s t 5y equals length line t u 3y 6 equals angle angle s v t angle angle u v t",
+    "positive_edges": [
+      {
+        "left": 4,
+        "right": 5,
+        "left_id": "l0",
+        "right_id": "l1",
+        "relations": [
+          "perpendicular"
+        ]
+      },
+      {
+        "left": 4,
+        "right": 8,
+        "left_id": "l0",
+        "right_id": "l4",
+        "relations": [
+          "bisect"
+        ]
+      },
+      {
+        "left": 6,
+        "right": 7,
+        "left_id": "l2",
+        "right_id": "l3",
+        "relations": [
+          "perpendicular"
+        ]
+      },
+      {
+        "left": 7,
+        "right": 8,
+        "left_id": "l3",
+        "right_id": "l4",
+        "relations": [
+          "bisect"
+        ]
+      }
+    ],
+    "class_counts": {
+      "perpendicular": 2,
+      "bisect": 2
+    },
+    "knn_indices": [
+      [
+        0,
+        6,
+        5,
+        8,
+        3,
+        1,
+        4,
+        7
+      ],
+      [
+        1,
+        4,
+        5,
+        8,
+        2,
+        7,
+        0,
+        6
+      ],
+      [
+        2,
+        7,
+        4,
+        8,
+        3,
+        1,
+        6,
+        5
+      ],
+      [
+        3,
+        7,
+        6,
+        8,
+        2,
+        4,
+        0,
+        5
+      ],
+      [
+        4,
+        1,
+        2,
+        8,
+        7,
+        5,
+        6,
+        3
+      ],
+      [
+        5,
+        8,
+        0,
+        1,
+        6,
+        4,
+        7,
+        2
+      ],
+      [
+        6,
+        8,
+        0,
+        3,
+        5,
+        7,
+        4,
+        2
+      ],
+      [
+        7,
+        2,
+        3,
+        8,
+        4,
+        6,
+        5,
+        1
+      ],
+      [
+        8,
+        6,
+        5,
+        7,
+        4,
+        0,
+        2,
+        3
+      ]
+    ]
+  },
+  {
+    "sample_id": "1580",
+    "file_name": "1580.png",
+    "width": 387,
+    "height": 274,
+    "num_nodes": 12,
+    "nodes": [
+      {
+        "id": "p0",
+        "type": "point"
+      },
+      {
+        "id": "p1",
+        "type": "point"
+      },
+      {
+        "id": "p2",
+        "type": "point"
+      },
+      {
+        "id": "p3",
+        "type": "point"
+      },
+      {
+        "id": "p4",
+        "type": "point"
+      },
+      {
+        "id": "p5",
+        "type": "point"
+      },
+      {
+        "id": "p6",
+        "type": "point"
+      },
+      {
+        "id": "l0",
+        "type": "line"
+      },
+      {
+        "id": "l1",
+        "type": "line"
+      },
+      {
+        "id": "l2",
+        "type": "line"
+      },
+      {
+        "id": "l3",
+        "type": "line"
+      },
+      {
+        "id": "l4",
+        "type": "line"
+      }
+    ],
+    "semantic_text": "P S R Q point on line p line q a point on line s line q b point on line r line q c perpendicular line q p line s p perpendicular line q r line s r equals length line s r length line p s equals angle angle p q s angle angle s q r",
+    "positive_edges": [
+      {
+        "left": 7,
+        "right": 8,
+        "left_id": "l0",
+        "right_id": "l1",
+        "relations": [
+          "bisect"
+        ]
+      },
+      {
+        "left": 7,
+        "right": 11,
+        "left_id": "l0",
+        "right_id": "l4",
+        "relations": [
+          "perpendicular"
+        ]
+      },
+      {
+        "left": 8,
+        "right": 9,
+        "left_id": "l1",
+        "right_id": "l2",
+        "relations": [
+          "bisect"
+        ]
+      },
+      {
+        "left": 9,
+        "right": 10,
+        "left_id": "l2",
+        "right_id": "l3",
+        "relations": [
+          "perpendicular"
+        ]
+      }
+    ],
+    "class_counts": {
+      "bisect": 2,
+      "perpendicular": 2
+    },
+    "knn_indices": [
+      [
+        0,
+        1,
+        11,
+        4,
+        3,
+        7,
+        10,
+        8
+      ],
+      [
+        1,
+        11,
+        0,
+        7,
+        3,
+        8,
+        4,
+        10
+      ],
+      [
+        2,
+        7,
+        8,
+        9,
+        1,
+        5,
+        11,
+        10
+      ],
+      [
+        3,
+        10,
+        11,
+        4,
+        5,
+        1,
+        8,
+        6
+      ],
+      [
+        4,
+        3,
+        10,
+        11,
+        6,
+        0,
+        5,
+        1
+      ],
+      [
+        5,
+        10,
+        6,
+        9,
+        3,
+        8,
+        4,
+        11
+      ],
+      [
+        6,
+        5,
+        10,
+        4,
+        3,
+        9,
+        11,
+        8
+      ],
+      [
+        7,
+        8,
+        1,
+        11,
+        9,
+        3,
+        10,
+        0
+      ],
+      [
+        8,
+        9,
+        7,
+        11,
+        10,
+        3,
+        1,
+        5
+      ],
+      [
+        9,
+        8,
+        5,
+        10,
+        7,
+        3,
+        11,
+        6
+      ],
+      [
+        10,
+        5,
+        3,
+        4,
+        6,
+        11,
+        8,
+        9
+      ],
+      [
+        11,
+        1,
+        3,
+        4,
+        0,
+        10,
+        8,
+        7
+      ]
+    ]
+  },
+  {
+    "sample_id": "2106",
+    "file_name": "2106.png",
+    "width": 385,
+    "height": 249,
+    "num_nodes": 9,
+    "nodes": [
+      {
+        "id": "p0",
+        "type": "point"
+      },
+      {
+        "id": "p1",
+        "type": "point"
+      },
+      {
+        "id": "p2",
+        "type": "point"
+      },
+      {
+        "id": "p3",
+        "type": "point"
+      },
+      {
+        "id": "l0",
+        "type": "line"
+      },
+      {
+        "id": "l1",
+        "type": "line"
+      },
+      {
+        "id": "l2",
+        "type": "line"
+      },
+      {
+        "id": "l3",
+        "type": "line"
+      },
+      {
+        "id": "l4",
+        "type": "line"
+      }
+    ],
+    "semantic_text": "R S Q P equals angle angle q s r angle angle p s q equals angle angle q s r angle angle s q r equals angle angle q s r angle angle p q s equals angle angle p s q angle angle s q r equals angle angle p s q angle angle p q s equals angle angle s q r angle angle p q s",
+    "positive_edges": [
+      {
+        "left": 4,
+        "right": 6,
+        "left_id": "l0",
+        "right_id": "l2",
+        "relations": [
+          "bisect"
+        ]
+      },
+      {
+        "left": 5,
+        "right": 6,
+        "left_id": "l1",
+        "right_id": "l2",
+        "relations": [
+          "bisect"
+        ]
+      },
+      {
+        "left": 6,
+        "right": 7,
+        "left_id": "l2",
+        "right_id": "l3",
+        "relations": [
+          "bisect"
+        ]
+      },
+      {
+        "left": 6,
+        "right": 8,
+        "left_id": "l2",
+        "right_id": "l4",
+        "relations": [
+          "bisect"
+        ]
+      }
+    ],
+    "class_counts": {
+      "bisect": 4
+    },
+    "knn_indices": [
+      [
+        0,
+        7,
+        8,
+        6,
+        2,
+        1,
+        4,
+        5
+      ],
+      [
+        1,
+        5,
+        6,
+        8,
+        4,
+        7,
+        3,
+        2
+      ],
+      [
+        2,
+        6,
+        4,
+        7,
+        8,
+        5,
+        1,
+        3
+      ],
+      [
+        3,
+        5,
+        4,
+        6,
+        1,
+        2,
+        8,
+        7
+      ],
+      [
+        4,
+        6,
+        5,
+        3,
+        2,
+        1,
+        7,
+        8
+      ],
+      [
+        5,
+        1,
+        3,
+        4,
+        6,
+        2,
+        8,
+        7
+      ],
+      [
+        6,
+        4,
+        1,
+        2,
+        5,
+        8,
+        7,
+        3
+      ],
+      [
+        7,
+        8,
+        0,
+        2,
+        6,
+        4,
+        1,
+        5
+      ],
+      [
+        8,
+        7,
+        6,
+        0,
+        1,
+        2,
+        5,
+        4
+      ]
+    ]
+  }
+]

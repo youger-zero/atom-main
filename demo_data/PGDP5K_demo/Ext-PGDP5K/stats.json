@@ -1,0 +1,64 @@
+{
+  "source_root": "demo_data/PGDP5K_demo",
+  "max_nodes": 64,
+  "knn_k": 8,
+  "relation_names": [
+    "intersect",
+    "tangent",
+    "parallel",
+    "perpendicular",
+    "bisect"
+  ],
+  "splits": {
+    "train": {
+      "num_samples": 8,
+      "positive_edge_count": 21,
+      "class_counts": {
+        "perpendicular": 7,
+        "intersect": 1,
+        "parallel": 3,
+        "bisect": 10
+      },
+      "avg_num_nodes": 10.625
+    },
+    "val": {
+      "num_samples": 4,
+      "positive_edge_count": 7,
+      "class_counts": {
+        "intersect": 2,
+        "perpendicular": 3,
+        "bisect": 2
+      },
+      "avg_num_nodes": 11.5
+    },
+    "test": {
+      "num_samples": 4,
+      "positive_edge_count": 7,
+      "class_counts": {
+        "perpendicular": 3,
+        "intersect": 1,
+        "parallel": 1,
+        "bisect": 2
+      },
+      "avg_num_nodes": 10.0
+    }
+  },
+  "global": {
+    "num_samples": 16,
+    "positive_edge_count": 35,
+    "class_counts": {
+      "perpendicular": 13,
+      "intersect": 4,
+      "parallel": 4,
+      "bisect": 14
+    },
+    "active_relations": [
+      "intersect",
+      "parallel",
+      "perpendicular",
+      "bisect"
+    ],
+    "audit_size": 0,
+    "audit_seed": 42
+  }
+}
